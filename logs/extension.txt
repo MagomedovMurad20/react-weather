@@ -1,0 +1,143 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.27.2
+Flutter extension: 3.27.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.61.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Fri Oct 22 2021 [22:35:52 GMT+0300 (Москва, стандартное время)] Log file started
+[22:35:53] [General] [Info] Searching for SDKs...
+[22:35:53] [General] [Info] Environment PATH:
+[22:35:53] [General] [Info]     C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64
+[22:35:53] [General] [Info]     C:\ProgramData\Oracle\Java\javapath
+[22:35:53] [General] [Info]     C:\WINDOWS\system32
+[22:35:53] [General] [Info]     C:\WINDOWS
+[22:35:53] [General] [Info]     C:\WINDOWS\System32\Wbem
+[22:35:53] [General] [Info]     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[22:35:53] [General] [Info]     C:\WINDOWS\System32\OpenSSH\
+[22:35:53] [General] [Info]     C:\Program Files\Git\cmd
+[22:35:53] [General] [Info]     C:\Program Files\nodejs\
+[22:35:53] [General] [Info]     C:\HashiCorp\Vagrant\bin
+[22:35:53] [General] [Info]     C:\Program Files\Symfony
+[22:35:53] [General] [Info]     C:\Users\Acer\AppData\Local\Programs\Python\Python38\Scripts\
+[22:35:53] [General] [Info]     C:\Users\Acer\AppData\Local\Programs\Python\Python38\
+[22:35:53] [General] [Info]     C:\Users\Acer\AppData\Local\Microsoft\WindowsApps
+[22:35:53] [General] [Info]     C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin
+[22:35:53] [General] [Info]     C:\Users\Acer\Documents\flutter\bin
+[22:36:12] [General] [Info] Searching for flutter.bat
+[22:36:12] [General] [Info]     Looking for flutter.bat in:
+[22:36:12] [General] [Info]         C:\Users\Acer\flutter-sdk
+[22:36:12] [General] [Info]         C:\Users\Acer\flutter-sdk\bin
+[22:36:12] [General] [Info]         /google/flutter
+[22:36:12] [General] [Info]         \google\flutter\bin
+[22:36:12] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64
+[22:36:12] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64\bin
+[22:36:12] [General] [Info]         C:\ProgramData\Oracle\Java\javapath
+[22:36:12] [General] [Info]         C:\ProgramData\Oracle\Java\javapath\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\system32
+[22:36:12] [General] [Info]         C:\WINDOWS\system32\bin
+[22:36:12] [General] [Info]         C:\WINDOWS
+[22:36:12] [General] [Info]         C:\WINDOWS\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\Wbem
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[22:36:12] [General] [Info]         C:\Program Files\Git\cmd
+[22:36:12] [General] [Info]         C:\Program Files\Git\cmd\bin
+[22:36:12] [General] [Info]         C:\Program Files\nodejs\
+[22:36:12] [General] [Info]         C:\Program Files\nodejs\bin
+[22:36:12] [General] [Info]         C:\HashiCorp\Vagrant\bin
+[22:36:12] [General] [Info]         C:\Program Files\Symfony
+[22:36:12] [General] [Info]         C:\Program Files\Symfony\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\Scripts\
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\Scripts\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Microsoft\WindowsApps
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Microsoft\WindowsApps\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin
+[22:36:12] [General] [Info]     Found at:
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin
+[22:36:12] [General] [Info]     Candidate paths to be post-filtered:
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter
+[22:36:12] [General] [Info]     Found at C:\Users\Acer\Documents\flutter
+[22:36:12] [General] [Info]     Returning SDK path C:\Users\Acer\Documents\flutter for flutter.bat
+[22:36:12] [General] [Info] Searching for dart.exe
+[22:36:12] [General] [Info]     Looking for dart.exe in:
+[22:36:12] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64
+[22:36:12] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64\bin
+[22:36:12] [General] [Info]         C:\ProgramData\Oracle\Java\javapath
+[22:36:12] [General] [Info]         C:\ProgramData\Oracle\Java\javapath\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\system32
+[22:36:12] [General] [Info]         C:\WINDOWS\system32\bin
+[22:36:12] [General] [Info]         C:\WINDOWS
+[22:36:12] [General] [Info]         C:\WINDOWS\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\Wbem
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[22:36:12] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[22:36:12] [General] [Info]         C:\Program Files\Git\cmd
+[22:36:12] [General] [Info]         C:\Program Files\Git\cmd\bin
+[22:36:12] [General] [Info]         C:\Program Files\nodejs\
+[22:36:12] [General] [Info]         C:\Program Files\nodejs\bin
+[22:36:12] [General] [Info]         C:\HashiCorp\Vagrant\bin
+[22:36:12] [General] [Info]         C:\Program Files\Symfony
+[22:36:12] [General] [Info]         C:\Program Files\Symfony\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\Scripts\
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\Scripts\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Python\Python38\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Microsoft\WindowsApps
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Microsoft\WindowsApps\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk\bin
+[22:36:12] [General] [Info]     Found at:
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk\bin
+[22:36:12] [General] [Info]     Candidate paths to be post-filtered:
+[22:36:12] [General] [Info]         C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk
+[22:36:12] [General] [Info]     Found at C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk
+[22:36:12] [General] [Info]     Returning SDK path C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk for dart.exe
+[22:36:13] [General] [Info] Experiment random number is 3 for experiement 'lsp-default'. Experiment is enabled for <= 100
+[22:36:13] [General] [Info] Experiment 'lsp-default' is activating (not first time)
+[22:36:13] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.27.2
+Flutter extension: 3.27.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.61.2
+Platform: win
+
+Workspace type: Unknown (Flutter SDK)
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\Acer\Documents\flutter\bin\cache\dart-sdk
+    Ver: 2.13.4
+Flutter SDK:
+    Loc: C:\Users\Acer\Documents\flutter
+    Ver: 2.2.3
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[22:36:13] [General] [Info] Extension:Startup timing: 20740ms
+[22:36:14] [General] [Info] Found 0 folders requiring "pub get":
+[22:36:15] [General] [Info] Caching Pub package names from pub.dev...
+[22:36:20] [General] [Info] Analyzer:Startup timing: 7050ms
+Fri Oct 22 2021 [22:36:38 GMT+0300 (Москва, стандартное время)] Log file ended

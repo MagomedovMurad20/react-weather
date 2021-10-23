@@ -1,0 +1,17 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.27.2
+Flutter extension: 3.27.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.61.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Fri Oct 22 2021 [22:36:13 GMT+0300 (Москва, стандартное время)] Log file started
+Fri Oct 22 2021 [22:36:38 GMT+0300 (Москва, стандартное время)] Log file ended
