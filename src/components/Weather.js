@@ -5,8 +5,7 @@ class Info extends React.Component {
 	render() {
 		return (
 			<div>
-				
-				<hi>Сюда будут выводиться данные о погоде</hi>
+				{this.props.city}
 			</div>
 		);
 	}

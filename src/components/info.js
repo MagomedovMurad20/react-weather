@@ -6,7 +6,7 @@ class Info extends React.Component {
 		return (
 			<div>
 				<h2>Wandex wather</h2>
-				<hi>Погода в твоем регионе</hi>
+				<h1>Погода в твоем регионе</h1>
 			</div>
 		);
 	}
