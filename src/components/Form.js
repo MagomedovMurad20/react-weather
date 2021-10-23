@@ -5,7 +5,7 @@ class Info extends React.Component {
 	render() {
 		return (
 			<div>
-				<hi>Введите название населенного пункта</hi>
+				<hi>Здесь будет форма для ввода населенного пункта</hi>
 			</div>
 		);
 	}
