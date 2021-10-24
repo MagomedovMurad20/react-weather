@@ -6,6 +6,8 @@ class Info extends React.Component {
 		return (
 			<div>
 				{this.props.city}
+				<br />
+				{this.props.temp}
 			</div>
 		);
 	}
