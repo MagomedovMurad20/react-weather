@@ -13,7 +13,8 @@ class App extends React.Component {
 	state = {
 		city: undefined,
 		temp: undefined,
-		vlag: undefined,
+		speed: undefined,
+		vlaga: undefined,
 		error : undefined
 	};
 
@@ -21,18 +22,28 @@ class App extends React.Component {
 		e.preventDefault();
 		
 		const city = e.target.gorod.value
+	
 
 	if (city) {
 				const apiFetch = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
 		
 				const data = await apiFetch.json();
+
+				const tempFloat = data.main.temp;
+				const speedFloat = data.wind.speed;
+
+				const intvalueTemp = Math.floor(tempFloat);
+				const intvalueSpeed = Math.floor(speedFloat)
+
+
+				console.log(data);
 				
 
 				this.setState({
 					city: data.name,
-					temp: data.main.temp,
-					vlag: data.main.humidity,
-					vlag: data.main.humidity,
+					temp: intvalueTemp,
+					speed: intvalueSpeed,
+					vlaga: data.main.humidity,
 					error: undefined
 				});
 				
@@ -41,7 +52,8 @@ class App extends React.Component {
 					this.setState = ({
 						city: undefined,
 						temp: undefined,
-						vlag: undefined,
+						speed: undefined,
+						vlaga: undefined,
 						error : "не удалось найти"
 					});
 				}
@@ -54,16 +66,17 @@ render () {
 				<div className="div main">
 					<container>
 						<div className="div row">
-							<div className="col-xs- info">
+							<div className="col-xs-5">
 							<Info/>
 							</div>
-							<div className="col-xs-7 form">
+							<div className="col-xs-7">
 							<Form propsWeather={this.getWeather}/>
 							<Weather
 							city={this.state.city}
 							temp={this.state.temp}
-							country={this.state.vlag}
+							speed={this.state.speed}
 							error={this.state.error}
+							vlaga={this.state.vlaga}
 							/>
 							</div>
 						</div>

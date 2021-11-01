@@ -29,8 +29,8 @@ body {
 }
 
 .info {
-  height: 55vh;
-  background: url("img/polygon.jpg") center center no-repeat;
+  height: 15vh;
+  /* background: url("img/polygon.jpg") center center no-repeat; */
   background-blend-mode: multiply;
   background-color: #484747;
   border: 2px solid #1f1f1f;
@@ -71,7 +71,7 @@ input::-webkit-input-placeholder {
 }
 
 input::-moz-placeholder {
-  color: #103a65;
+  color: #327cc5;
 }
 
 button {
@@ -110,6 +110,7 @@ button:active {
 }
 
 .infoWeath {
+  margin-left: 5vh;
   width: 60%;
   font-size: 20px;
   color: #fff;
@@ -118,4 +119,8 @@ button:active {
 .error {
   color: #041f3c;
   font-weight: bold;
+}
+
+.forma {
+	margin-left: 5vh;
 }
