@@ -4,6 +4,7 @@ import Info from "./components/Info";
 import Weather from "./components/Weather";
 
 
+
 const API_KEY = "fdb60fe12aa73018edf991a920cfc787";
 
 
@@ -12,9 +13,7 @@ class App extends React.Component {
 	state = {
 		city: undefined,
 		temp: undefined,
-		country: undefined,
-		sunryse: undefined,
-		sunset: undefined,
+		vlag: undefined,
 		error : undefined
 	};
 
@@ -23,19 +22,30 @@ class App extends React.Component {
 		
 		const city = e.target.gorod.value
 
-		const apiFetch = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
+	if (city) {
+				const apiFetch = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
 		
-		const data = await apiFetch.json();
-		console.log(data);
+				const data = await apiFetch.json();
+				
 
-		this.setState({
-			city: data.name,
-			temp: data.main.temp,
-			country: data.sys.country,
-			sunryse: data.sys.sunrise,
-			sunset: data.sys.sunset,
-			error : ""
-		});
+				this.setState({
+					city: data.name,
+					temp: data.main.temp,
+					vlag: data.main.humidity,
+					vlag: data.main.humidity,
+					error: undefined
+				});
+				
+
+				} else {
+					this.setState = ({
+						city: undefined,
+						temp: undefined,
+						vlag: undefined,
+						error : "не удалось найти"
+					});
+				}
+		
 	};
 
 render () {
@@ -46,9 +56,7 @@ render () {
 				<Weather
 				city={this.state.city}
 				temp={this.state.temp}
-				country={this.state.country}
-				sunryse={this.state.sunryse}
-				sunset={this.state.sunset}
+				country={this.state.vlag}
 				error={this.state.error}
 				/>
 			</div>		
